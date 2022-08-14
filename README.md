@@ -1,7 +1,7 @@
 ![Atlantic-Cord](https://github.com/atlanticDragon888/Atlantic-cord/raw/main/screenshot/QK9vfxcAQm.png)
 
 # Atlantic-Cord
-A humble edit of Tachi-Cord by Luckfire
+A Clean, Dark and Cohesive theme from a humble edit and redesign of Tachi-Cord by Luckfire.
 
 ## Building
 To build files in development (watch mode):
