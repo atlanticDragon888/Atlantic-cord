@@ -1,0 +1,19 @@
+{
+  "name": "atlantic-cord",
+  "version": "1.0.0",
+  "description": "A humble edit of Tachi-Cord by Luckfire",
+  "scripts": {
+    "dev": "npx sass --watch ./src/_index.scss:AtlanticCord.theme.css",
+    "build": "npx sass ./src/_index.scss:AtlanticCord.theme.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atlanticdragon888/atlantic-cord.git"
+  },
+  "author": "Atlantic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atlanticdragon888/atlantic-cord/issues"
+  },
+  "homepage": "https://github.com/atlanticdragon888/atlantic-cord#readme"
+}
