@@ -1,4 +1,4 @@
-<!-- [!banner]({LINK}) -->
+![Atlantic-Cord](https://github.com/atlanticDragon888/Atlantic-cord/raw/main/screenshot/QK9vfxcAQm.png)
 
 # Atlantic-Cord
 A humble edit of Tachi-Cord by Luckfire
@@ -9,3 +9,7 @@ To build files in development (watch mode):
 
 To build files once:
 ```npm run build```
+
+## Credits
+* LuckFire for making the original theme.
+* Whatever I used without realizing, I'm a noob ;w;
