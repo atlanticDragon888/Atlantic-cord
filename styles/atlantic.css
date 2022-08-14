@@ -1,0 +1,56 @@
+:root {
+  /* [ --STYLING INFO-- ] */
+  --current-style: "Default";
+  /* [ --ACCENT COLORS-- ] */
+  /* [ BRAND ] */
+  /* --accent-brand: 215, calc(var(--saturation-factor, 1)*0), 65%; */
+  --accent-brand: 197, calc(var(--saturation-factor, 1) * 100%), 45%;
+  --accent-hovered-brand: 197, calc(var(--saturation-factor, 1) * 12.5%), 55%;
+  /* [ GREY ] */
+  --accent-grey: hsl(240, 4%, 15%);
+  --accent-hovered-grey: hsl(228, 4%, 22%);
+  /* [ CUSTOM ] */
+  --accent-brand-bot: hsl(220, 5%, 22.5%);
+  --accent-brand-button: hsl(240, 2%, 91%);
+  --accent-hovered-brand-button: hsl(240, 2%, 100%);
+  --link-color: hsl(197, 100%, 48%);
+  --message-hover: hsl(228, 7%, 10%);
+  --mentioned-color: hsla(222, 91%, 61%, 45%);
+  --mentioned-color-background: 222, 91%, 61%;
+  --stream-buttons: hsl(240, 4%, 75%);
+}
+
+html.theme-dark,
+.layer-1Ixpg3, .theme-light {
+  /* [ --BACKGROUND-- ] */
+  --background-main: hsl(228, 4%, 10%);
+  /* [ MAIN ] */
+  --background-accent: hsl(223, 4%, 16%);
+  --background-primary: hsl(228, 4.5%, 9%);
+  --background-secondary: hsl(228, 4.5%, 10.2%);
+  --background-secondary-alt: hsl(223, 5%, 11.5%);
+  --background-tertiary: hsl(225, 4.5%, 7%);
+  --background-floating: hsl(225, 5%, 5%);
+
+  --searcharea-background: hsl(225, 5%, 9%);
+  --channeltextarea-background: hsl(230, 4.5%, 18%);
+  --tag-background: hsl(228, 2%, 15%);
+
+  --indicator-hovered: rgba(51, 53, 58, 0.45);
+  /* [ DEPRECATED ] */
+  --deprecated-quickswitcher-input-background: var(--background-accent);
+  /* [ SCROLLERS ] */
+  --scrollbar-thumb: #737373;
+  --scrollbar-track: transparent;
+  /* [ --TEXT-- ] */
+  /* [ MAIN ] */
+  --channels-default: hsl(260, 2%, 65%);
+  --text-normal: hsl(240, 2%, 85%);
+  --text-muted: hsl(260, 2%, 65%);
+
+  --interactive-normal: hsl(240, 4%, 70%);
+  --interactive-muted: hsl(240, 1%, 60%);
+  /* [ HEADER ] */
+  --header-primary: hsl(0, 0%, 85%);
+  --header-secondary: hsl(216, 4%, 75%);
+}
