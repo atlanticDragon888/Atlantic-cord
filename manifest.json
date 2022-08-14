@@ -3,7 +3,7 @@
     "description": "A humble edit and redesign of Tachi-Cord by Luckfire",
     "version": "1.0.0",
     "author": "Atlantic™#0001",
-    "theme": "/src/main.css",
+    "theme": "./AtlanticCord.theme.css",
     "consent": "true",
     "license": "MIT"
 }
