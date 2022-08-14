@@ -1,9 +1,9 @@
 {
-    "name": "Tachi-Cord",
-    "description": "Styles that are inspired from Tachiyomi's color scheme, made for Discord.",
+    "name": "Atlantic-Cord",
+    "description": "A humble edit and redesign of Tachi-Cord by Luckfire",
     "version": "1.0.0",
-    "author": "LuckFire#4800",
-    "theme": "/src/_index.scss",
+    "author": "Atlantic™#0001",
+    "theme": "/src/main.css",
     "consent": "true",
     "license": "MIT"
 }
