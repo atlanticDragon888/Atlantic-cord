@@ -1,5 +1,5 @@
 @charset "UTF-8";
-:root {
+:root, .contentWrapper-3vHNP2, .profileColors-3Y0XaR, .container-2McqkF, .layer-2aCOJ3, .container-ZMc96U {
   /* [ --STYLING INFO-- ] */
   --current-style: "Default";
   /* [ --ACCENT COLORS-- ] */
@@ -19,10 +19,6 @@
   --mentioned-color: hsla(222, 91%, 61%, 45%);
   --mentioned-color-background: 222, 91%, 61%;
   --stream-buttons: hsl(240, 4%, 75%);
-}
-
-html.theme-dark,
-.layer-1Ixpg3, .theme-light {
   /* [ --BACKGROUND-- ] */
   --background-main: hsl(228, 4%, 10%);
   /* [ MAIN ] */
@@ -35,6 +31,12 @@ html.theme-dark,
   --searcharea-background: hsl(225, 5%, 9%);
   --channeltextarea-background: hsl(230, 4.5%, 18%);
   --tag-background: hsl(228, 2%, 15%);
+  /* [ POPOUTS ] */
+  --profile-body-background-color: var(--link-color);
+  --profile-body-divider-opacity: 1;
+  --profile-gradient-primary-color: var(--background-secondary);
+  --profile-gradient-secondary-color: var(--background-secondary);
+  --profile-avatar-border-color: var(--background-primary);
   --indicator-hovered: rgba(51, 53, 58, 0.45);
   /* [ DEPRECATED ] */
   --deprecated-quickswitcher-input-background: var(--background-accent);
@@ -643,7 +645,7 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 
 #app-mount .container-ZMc96U .themed-Hp1KC_ {
-  background-color: var(--background-secondary);
+  background-color: var(--background-secondary) !important;
 }
 #app-mount .container-ZMc96U .children-3xh0VB:after {
   background: linear-gradient(90deg, rgba(54, 57, 63, 0) 0, var(--background-secondary));
@@ -935,6 +937,10 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
   display: none;
 }
 
+.overlayBackground-arbZMT {
+  background-color: var(--background-tertiary);
+}
+
 .container-1-ERn5.hasBanner-2IrYih .bannerImage-ubW8K-::after {
   z-index: 100;
   content: "";
@@ -1114,6 +1120,38 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .channel-1Shao0 .interactive-1vLZ_I {
   margin-top: -1px;
   margin-bottom: -1px;
+}
+
+[class*=title-][class*=container-] [class*=toolbar-] [class*=search-] [class*=searchBar-] {
+  background: none !important;
+  width: 24px;
+  color: var(--color-text);
+  transition: width 0.2s, padding 0.5s;
+  padding: 0;
+}
+
+[class*=title-][class*=container-] [class*=toolbar-] [class*=search-] [class*=searchBar-] [class*=iconContainer-] {
+  width: 24px !important;
+  height: 24px;
+  cursor: pointer !important;
+}
+
+[class*=title-][class*=container-] [class*=toolbar-] [class*=search-] [class*=searchBar-],
+[class*=title-][class*=container-] [class*=toolbar-] [class*=search-] [class*=searchBar-] svg {
+  color: var(--color-text);
+  width: 24px;
+  height: 24px;
+  padding: 0.5px;
+}
+
+[class*=toolbar-] [class*=open-] [class*=searchBar-] {
+  width: 300px !important;
+  padding: 0 10px !important;
+}
+
+[class*=toolbar-] [class*=open-] [class*=searchBar-] svg {
+  color: var(--text-muted);
+  transform: scale(0.8);
 }
 
 /*# sourceMappingURL=AtlanticCord.theme.css.map */
