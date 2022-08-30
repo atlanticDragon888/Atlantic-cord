@@ -36,7 +36,7 @@
   --profile-body-divider-opacity: 1;
   --profile-gradient-primary-color: var(--background-secondary);
   --profile-gradient-secondary-color: var(--background-secondary);
-  --profile-avatar-border-color: var(--background-primary);
+  --profile-avatar-border-color: var(--background-secondary);
   --indicator-hovered: rgba(51, 53, 58, 0.45);
   /* [ DEPRECATED ] */
   --deprecated-quickswitcher-input-background: var(--background-accent);

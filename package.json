@@ -1,6 +1,6 @@
 {
   "name": "atlantic-cord",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A humble edit of Tachi-Cord by Luckfire",
   "scripts": {
     "dev": "npx sass --watch ./src/_index.scss:AtlanticCord.theme.css",
