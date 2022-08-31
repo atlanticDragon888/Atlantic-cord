@@ -57,7 +57,7 @@
 
 :root {
   /* [ --THEME INFO-- ] */
-  --current-version: "1.0.1";
+  --current-version: "1.0.2";
   /* [ --BASE ACCENTS-- ] */
   /* [ BLUE ] */
   --accent-blue: 222, calc(var(--saturation-factor, 1)*91%), 61%;
@@ -937,8 +937,9 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
   display: none;
 }
 
-.overlayBackground-arbZMT {
-  background-color: var(--background-tertiary);
+.textarea-_59yqs {
+  --background-tertiary: rgba($color: #000000, $alpha: 0.8);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .container-1-ERn5.hasBanner-2IrYih .bannerImage-ubW8K-::after {

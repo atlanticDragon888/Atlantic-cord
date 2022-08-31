@@ -1,6 +1,6 @@
 /**
     * @name Tachi-Cord
-    * @version 1.0.1
+    * @version 1.0.2
     * @description Styles that are inspired from Tachiyomi's color scheme, made for Discord.
     * @author LuckFire#4800
     *
@@ -78,7 +78,7 @@ html.theme-dark, .layer-1Ixpg3 .theme-light {
 */
 :root {
   /* [ --THEME INFO-- ] */
-  --current-version: "1.0.1";
+  --current-version: "1.0.2";
   /* [ --BASE ACCENTS-- ] */
   /* [ BLUE ] */
   --accent-blue: 222, calc(var(--saturation-factor, 1)*91%), 61%;
