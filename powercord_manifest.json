@@ -1,7 +1,7 @@
 {
     "name": "Atlantic-Cord",
     "description": "A Clean, Dark and Cohesive theme from a humble edit and redesign of Tachi-Cord by Luckfire.",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "author": "Atlantic™#0001",
     "theme": "./AtlanticCord.theme.css",
     "consent": "true",

@@ -43,7 +43,7 @@
     .info-1sUqUG:last-child {
         margin-left: -1px;
         &::before { // also thanks Loremly for saving me time :WICKED:
-            content: "Tachi-cord Theme Info" "\aStyle: " var(--current-style) "\aVersion: " var(--current-version) "\a━━━━━━━━━━━━━━━\a Discord Client Info" !important;
+            content: "Atlantic-cord Theme Info" "\aStyle: " var(--current-style) "\aVersion: " var(--current-version) "\a━━━━━━━━━━━━━━━\a Discord Client Info" !important;
             position: relative;
             width: 100%;
             color: var(--text-muted);

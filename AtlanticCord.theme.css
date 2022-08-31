@@ -57,7 +57,7 @@
 
 :root {
   /* [ --THEME INFO-- ] */
-  --current-version: "1.0.2";
+  --current-version: "1.1.0";
   /* [ --BASE ACCENTS-- ] */
   /* [ BLUE ] */
   --accent-blue: 222, calc(var(--saturation-factor, 1)*91%), 61%;
@@ -149,7 +149,7 @@
   margin-left: -1px;
 }
 [aria-label=USER_SETTINGS] .info-1sUqUG:last-child::before {
-  content: "Tachi-cord Theme Info" "\aStyle: " var(--current-style) "\aVersion: " var(--current-version) "\a━━━━━━━━━━━━━━━\a Discord Client Info" !important;
+  content: "Atlantic-cord Theme Info" "\aStyle: " var(--current-style) "\aVersion: " var(--current-version) "\a━━━━━━━━━━━━━━━\a Discord Client Info" !important;
   position: relative;
   width: 100%;
   color: var(--text-muted);
