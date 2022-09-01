@@ -32,7 +32,7 @@
   --channeltextarea-background: hsl(230, 4.5%, 18%);
   --tag-background: hsl(228, 2%, 15%);
   /* [ POPOUTS ] */
-  --profile-body-background-color: var(--link-color);
+  --profile-body-background-color: var(--background-tertiary);
   --profile-body-divider-opacity: 1;
   --profile-gradient-primary-color: var(--background-secondary);
   --profile-gradient-secondary-color: var(--background-secondary);
@@ -57,7 +57,7 @@
 
 :root {
   /* [ --THEME INFO-- ] */
-  --current-version: "1.1.0";
+  --current-version: "1.1.1";
   /* [ --BASE ACCENTS-- ] */
   /* [ BLUE ] */
   --accent-blue: 222, calc(var(--saturation-factor, 1)*91%), 61%;
@@ -927,7 +927,7 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 
 .role-2TIOKu {
   border-radius: 25px;
-  background-color: var(--tag-background);
+  background-color: rgba(39, 39, 39, 0.4);
 }
 
 .member-perm {
@@ -940,6 +940,11 @@ base0F  #b9b9bc  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 .textarea-_59yqs {
   --background-tertiary: rgba($color: #000000, $alpha: 0.8);
   background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.profileBadges-31rDHI {
+  border-radius: 25px;
 }
 
 .container-1-ERn5.hasBanner-2IrYih .bannerImage-ubW8K-::after {

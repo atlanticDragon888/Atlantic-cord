@@ -31,7 +31,7 @@
 --channeltextarea-background: hsl(230, 4.5%, 18%);
 --tag-background: hsl(228, 2%, 15%);
 /* [ POPOUTS ] */
---profile-body-background-color: var(--link-color);
+--profile-body-background-color: var(--background-tertiary);
 --profile-body-divider-opacity: 1;
 --profile-gradient-primary-color: var(--background-secondary);
 --profile-gradient-secondary-color: var(--background-secondary);
